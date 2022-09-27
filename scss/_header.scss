@@ -1,0 +1,12 @@
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: $fondo_negro;
+    color: $color_letra;
+
+    img{
+        width: 100px;
+    }
+}

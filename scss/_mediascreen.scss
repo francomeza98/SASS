@@ -1,0 +1,43 @@
+@media screen and (max-width:1000px) {
+    .header {
+        background-color: $color_grid;
+    }
+    .header2 {
+        background-color: $color_grid;
+    }
+
+    .container {
+        width: 99vw;
+        height: 99vh;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat (8, 1fr);
+        grid-template-areas:
+            "header"
+            "section-1"
+            "section-2"
+            "section-3"
+            "footer"
+           }
+           .footer {
+            background-color: brown;
+        }
+        .container2 {
+            width: 99vw;
+            height: 99vh;
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: repeat (8, 1fr);
+            grid-template-areas:
+                "header2"
+                "section1"
+                "section2"
+                "section3"
+                "section4"
+                "section5"
+                "footer2"
+        } 
+        .footer2 {
+            background-color: brown;
+       }
+}

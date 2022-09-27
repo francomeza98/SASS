@@ -1,0 +1,40 @@
+.container2 {
+    width: 99vw;
+    height: 99vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.3fr 1.3fr 1.4fr 0.5fr;
+    grid-template-areas:
+        "header2 header2 header2 header2"
+        "section1 section2 section3 section3"
+        "section5 section5 section4 section4"
+        "footer2 footer2 footer2 footer2";
+
+        .header2 {
+            grid-area: header2;
+        }
+        
+        .section1 {
+            grid-area: section3;
+        }
+        
+        .section2 {
+            grid-area: section4;
+        }
+        
+        .section3 {
+            grid-area: section2;
+        }
+        
+        .section4 {
+            grid-area: section5;
+        }
+        
+        .section5 {
+            grid-area: section1;
+        }
+        
+        .footer2 {
+            grid-area: footer2;
+        }
+}

@@ -1,0 +1,27 @@
+.container {
+    width: 99vw;
+    height: 99vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.3fr 1.7fr 1fr 0.5fr;
+    grid-template-areas:
+        "header header header"
+        "section-1 section-1 section-3"
+        "section-2 section-2 section-3"
+        "footer footer footer";
+        .header {
+            grid-area: header;
+        }
+        .section-1 {
+            grid-area: section-1;
+        }
+        .section-2 {
+            grid-area: section-2;
+        }
+        .section-3 {
+            grid-area: section-3;
+        }
+        .footer {
+            grid-area: footer;
+        }
+}
